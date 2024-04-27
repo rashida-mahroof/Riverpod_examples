@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:riverpod_expample_app/FutureProvider/meal_view.dart';
+import 'package:riverpod_expample_app/StreamProvider/view.dart';
 void main() {
   runApp(ProviderScope(child: const MyApp()));
 }
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:  RandomMealView(),
+      home:   BitCoinPriceView(),
     );
   }
 }
